@@ -50,3 +50,25 @@ chess-ai-project/
 ├── chess_ai.py         # Implementasi AI (Minimax + Alpha-Beta)
 ├── index.html          # Frontend UI
 └── README.md           # Dokumentasi proyek
+
+🔧 Cara Menjalankan
+1. Clone Repository
+git clone https://github.com/god1mas/chess-ai-project.git
+cd chess-ai-project
+2. Masuk ke Folder Backend
+cd backend
+3. Install Dependencies
+pip install -r requirements.txt
+
+Jika requirements.txt belum lengkap, kamu juga bisa install manual:
+
+pip install flask flask-cors python-chess
+4. Jalankan Backend Server
+python app.py
+
+Server akan berjalan di:
+
+http://localhost:5000
+5. Jalankan Frontend
+
+Buka file frontend/index.html di browser, atau jalankan menggunakan Live Server di VS Code.
